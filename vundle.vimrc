@@ -13,6 +13,20 @@ Plugin 'VundleVim/Vundle.vim'
 " nerdtree plugin : https://github.com/scrooloose/nerdtree
 Plugin 'scrooloose/nerdtree'
 
+" airline plugin for displaying file status
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" project plugin (enables sourcing project vim config files)
+Plugin 'vim-scripts/DfrankUtil'
+Plugin 'vim-scripts/vimprj'
+
+" index ctags automaticlly
+Plugin 'vim-scripts/indexer.tar.gz'
+
+" ctrlp plugin
+Plugin 'ctrlpvim/ctrlp.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
