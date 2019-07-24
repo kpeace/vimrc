@@ -4,5 +4,4 @@ then
 	exit
 fi
 
-mkdir .vimprj
-cp ~/.vim/vimprj .vimprj
+cp -r ~/.vim/vimprj .vimprj

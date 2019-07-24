@@ -2,7 +2,7 @@
 source ~/.vim/vundle.vimrc
 source ~/.vim/basic.vimrc
 
-" set number
+set number
 
 " make tabs 4 space
 filetype plugin indent on
