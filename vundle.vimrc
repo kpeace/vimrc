@@ -13,6 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 " nerdtree plugin : https://github.com/scrooloose/nerdtree
 Plugin 'scrooloose/nerdtree'
 
+" easily comment in/out multiple lines of code
+Plugin 'scrooloose/nerdcommenter'
+
 " airline plugin for displaying file status
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
