@@ -30,6 +30,12 @@ Plugin 'vim-scripts/indexer.tar.gz'
 " ctrlp plugin
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" you compleate me - auto compleater
+Plugin 'ycm-core/YouCompleteMe'
+
+" toggle between header and implementation
+Plugin 'ericcurtin/CurtineIncSW.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

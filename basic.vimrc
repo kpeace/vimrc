@@ -25,3 +25,7 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 "
 " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
+
+"CtrlP options
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'

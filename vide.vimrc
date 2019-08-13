@@ -39,3 +39,17 @@ set laststatus=2
 
 " enable color
 set t_Co=256
+
+" switch between header and implementation with F5
+map <F5> :call CurtineIncSw()<CR>
+
+" You Complete Me option
+
+" use sytem clangd (better updated)
+let g:ycm_clangd_binary_path = exepath("clangd")
+
+" let clangd control code compleation
+let g:ycm_clangd_uses_ycmd_caching = 0
+
+" CtrlP root markers
+let g:ctrlp_root_markers = ['.vimprj']
